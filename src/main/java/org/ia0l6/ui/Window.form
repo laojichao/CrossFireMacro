@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.ia0l6.ui.Window">
+  <grid id="27dc6" binding="mainPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="742" height="258"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="8568f" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title=""/>
+        <children>
+          <component id="c50bf" class="javax.swing.JLabel" binding="labelTips">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="11"/>
+              <text value="鼠标滚轮按k下开启或关闭k"/>
+            </properties>
+          </component>
+          <component id="ff3d0" class="javax.swing.JLabel" binding="labelStatus">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value=""/>
+              <text value="侧键炼狱和侧键USP"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <component id="fe767" class="javax.swing.JLabel" binding="labelResult">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="运行状态：已关闭"/>
+            </properties>
+          </component>
+          <component id="e8425" class="javax.swing.JLabel" binding="labelDelay">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="以下为高斯期望、标准差，不会改别乱改"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2c06b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d73d3" class="javax.swing.JLabel" binding="labelUSP">
+            <constraints/>
+            <properties>
+              <text value="USP延迟"/>
+            </properties>
+          </component>
+          <component id="3704d" class="javax.swing.JTextField" binding="jtuLeftMean">
+            <constraints/>
+            <properties>
+              <text value="40"/>
+            </properties>
+          </component>
+          <component id="b7aa8" class="javax.swing.JLabel" binding="labeluLeft">
+            <constraints/>
+            <properties>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="a8603" class="javax.swing.JTextField" binding="jtuLeftDev">
+            <constraints/>
+            <properties>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="b0c24" class="javax.swing.JTextField" binding="jtuRightMean">
+            <constraints/>
+            <properties>
+              <text value="50"/>
+            </properties>
+          </component>
+          <component id="8b138" class="javax.swing.JLabel" binding="labeluRight">
+            <constraints/>
+            <properties>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="6fb9f" class="javax.swing.JTextField" binding="jtuRightDev">
+            <constraints/>
+            <properties>
+              <text value="5"/>
+            </properties>
+          </component>
+          <hspacer id="f7540">
+            <constraints/>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="82f3e" binding="purPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c6e05" class="javax.swing.JLabel" binding="labelPur">
+            <constraints/>
+            <properties>
+              <text value="炼狱延迟"/>
+            </properties>
+          </component>
+          <component id="df28" class="javax.swing.JTextField" binding="tfpLeftMean">
+            <constraints/>
+            <properties>
+              <text value="20"/>
+            </properties>
+          </component>
+          <component id="bd44e" class="javax.swing.JLabel" binding="labelpLeft">
+            <constraints/>
+            <properties>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="17c21" class="javax.swing.JTextField" binding="tfpLeftDev">
+            <constraints/>
+            <properties>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="d6b88" class="javax.swing.JTextField" binding="tfpRightMean">
+            <constraints/>
+            <properties>
+              <text value="120"/>
+            </properties>
+          </component>
+          <component id="4ea8e" class="javax.swing.JLabel" binding="labelpRight">
+            <constraints/>
+            <properties>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="ea334" class="javax.swing.JTextField" binding="tfpRightDev">
+            <constraints/>
+            <properties>
+              <text value="5"/>
+            </properties>
+          </component>
+          <hspacer id="88e39">
+            <constraints/>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
